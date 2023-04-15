@@ -4,8 +4,12 @@ Create virtual environment
 ```
 python3.10 -m venv venv
 source venv/bin/activate
+```
+
+install dependencies
+```
 pip install -r requirements-dev.txt
-pip install -r compose/crawler/requirements-dev.txt
+pip install -r ./compose/crawler/requirements.txt
 ```
 
 install pre-commit git hooks
