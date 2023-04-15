@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+  crawler:
+    container_name: movies_api
+    build:
+      dockerfile: ./compose/crawler/Dockerfile
+      context: .
+    command: tail -F anything
+
+  redis:
+    ports:
+      - ${REDIS_PORT}:${REDIS_PORT}

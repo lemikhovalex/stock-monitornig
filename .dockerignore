@@ -1,0 +1,21 @@
+.git
+.git/
+npm-debug.log
+.coverage
+.coverage.*
+.aws
+*.egg-info
+build
+
+
+dist
+*.egg/
+*.pyc
+*.swp
+__pycache__
+
+.tox
+html/*
+
+# Compiled Documentation
+docs/_build
