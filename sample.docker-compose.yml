@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
   crawler:
-    container_name: movies_api
+    container_name: crawler
     build:
       dockerfile: ./compose/crawler/Dockerfile
       context: .
